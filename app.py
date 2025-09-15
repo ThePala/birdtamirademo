@@ -146,7 +146,7 @@ fig_over.update_yaxes(type="category", automargin=True)
 fig_over.update_layout(
     title="Overview: white = data recorded for that site-year; black = no data recorded",
     height=3000,
-    margin=dict(t=70, b=120, l=300)
+    margin=dict(t=70, b=120, l=100)
 )
 
 st.plotly_chart(fig_over, use_container_width=True)
@@ -368,7 +368,7 @@ fig.update_layout(
     xaxis_title="Year",
     yaxis_title="Species",
     height=height_px,
-    margin=dict(t=70, b=160, l=340)
+    margin=dict(t=70, b=160, l=100)
 )
 
 st.plotly_chart(fig, use_container_width=True)
